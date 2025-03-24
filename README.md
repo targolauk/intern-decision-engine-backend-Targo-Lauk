@@ -45,6 +45,7 @@ The request body must contain the following fields:
 "personalCode": "50307172740",
 "loanAmount": "5000",
 "loanPeriod": "24"
+"country": "Estonia"
 }
 ```
 
