@@ -37,6 +37,7 @@ The request body must contain the following fields:
 - personalCode: The customer's personal ID code.
 - loanAmount: The requested loan amount.
 - loanPeriod: The requested loan period.
+- country: The country where the request is coming from.
 
 **Request example:**
 
@@ -54,6 +55,7 @@ The response body contains the following fields:
 - loanAmount: The approved loan amount.
 - loanPeriod: The approved loan period.
 - errorMessage: An error message, if any.
+  
 
 **Response example:**
 
